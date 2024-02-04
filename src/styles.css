@@ -1,1 +1,133 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+/* Navbar Styling */
+.bg-custom-blue {
+    background-color: #004080; /* Bleu foncé - ajustez selon vos préférences */
+  }
+  
+  /* Main Container Styling */
+  .container-main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #004080; /* Reprend la couleur de la navbar - ajustez selon vos préférences */
+    color: white;
+    padding: 20px 0;
+    margin-top: auto; /* Assure que le footer reste en bas de la page */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Footer Menus Styling */
+  ul.list-vertical {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul.list-vertical li {
+    margin-bottom: 10px;/* Navbar Styling */
+    .bg-custom-blue {
+      background-color: #004080; /* Bleu foncé - ajustez selon vos préférences */
+    }
+    
+    /* Main Container Styling */
+    .container-main {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    /* Footer Styling */
+    footer {
+      background-color: #004080; /* Reprend la couleur de la navbar - ajustez selon vos préférences */
+      color: white;
+      padding: 20px 0;
+      margin-top: auto; /* Assure que le footer reste en bas de la page */
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    /* Footer Menus Styling */
+    ul.list-vertical {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    ul.list-vertical li {
+      margin-bottom: 10px;
+    }
+    
+    ul.list-vertical li a {
+      text-decoration: none;
+      color: white;
+    }
+    
+    /* Footer Company Info Styling */
+    .company-info {
+      text-align: left;
+    }
+    
+    /* Footer Separator Styling */
+    .footer-separator {
+      border-right: 2px solid white;
+      height: 100%;
+      margin: 0 20px;
+    }
+    
+  }
+  
+  ul.list-vertical li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Footer Company Info Styling */
+  .company-info {
+    text-align: left;
+  }
+  
+  .title-color {
+    color: #3498db; /* Remplacez cette valeur par la couleur de votre choix */
+  }
+
+    /* Footer Separator Styling */
+    /* Carousel Styling */
+#imageCarousel {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .carousel-inner {
+    border-radius: 10px;
+  }
+  
+  .carousel-item img {
+    border-radius: 10px;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #004080; /* Couleur de la navbar ou une couleur personnalisée */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: white; /* Couleur des flèches du contrôle */
+  }
+  
+  .carousel-control-prev:hover,
+  .carousel-control-next:hover {
+    background-color: #003366; /* Couleur au survol des flèches du contrôle */
+  }
+  
+  
